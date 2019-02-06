@@ -354,7 +354,7 @@ module.exports = function (grunt) {
     'sass:dev'
   ]);
   grunt.registerTask('minify', ['uglify', 'sass:dist']);
-  grunt.registerTask('test', ['connect:tests', 'qunit', 'jshint']);
+  grunt.registerTask('test', [/*'connect:tests', 'qunit', */'jshint']);
 
   var ciTasks = [];
 
